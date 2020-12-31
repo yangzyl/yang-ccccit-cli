@@ -12,14 +12,14 @@ module.exports  = {
         name: 'mobile',
         value: {
           url: 'https://github.com/yangzyl/we_ccccit_wechart.git',
-          gitName: 'vue-mobile-template',
+          gitName: 'we_ccccit_wechart',
           val:'移动端模版'
         }
       },{
         name: 'pc',
         value: {
           url: 'https://github.com/yangzyl/vue-cli-template.git',
-          gitName: 'vue-web-template',
+          gitName: 'vue-cli-template',
           val:'PC端模版'
         }
       }]

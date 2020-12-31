@@ -37,7 +37,10 @@ commander.version(version, '-v, --version')
           return;
         }
         fs.rename(gitName, projectName, (err)=>{
+          console.log(projectName);
+          console.log(gitName);
           if (err) {
+            console.log(err)
             exec('rm -rf '+gitName, function (err, out) {});
             console.log(chalk.red(`The ${projectName} project template already exist`));
           } else {
